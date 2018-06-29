@@ -1,0 +1,69 @@
+{
+	"name": "Hrms",
+	"id": "hrms",
+	"packaging_format": 1,
+	"description": {
+		"en": "Hrms"
+	},
+	"version": "1.0~ynh1",
+	"url": "https://github.com/deifyinfocommsolutions/sentrifugo_dfy_stretch",
+	"license": "GPL-3.0",
+	"maintainer": {
+		"name": "Deify Infocomm Solutions",
+		"email": "support@deifysolutions.com"
+	},
+	"requirements": {
+        "yunohost": ">= 2.7.2"
+	},
+	"multi_instance": false,
+	"services": [
+		"nginx",
+		"php7.1-fpm",
+		"mysql"
+	],
+	"arguments": {
+		"install" : [
+			{
+				"name": "domain",
+				"type": "domain",
+				"ask": {
+					"en": "Choose a domain for Hrms"
+				},
+				"example": "domain.org"
+			},
+			{
+				"name": "path",
+				"type": "path",
+				"ask": {
+					"en": "Choose a path for Hrms"
+				},
+				"example": "/hrms",
+				"default": "/hrms"
+			},
+			{
+				"name": "admin",
+				"type": "user",
+				"ask": {
+					"en": "Choose the Ibeads user"
+				},
+				"example": "devadmin"
+			},
+			{
+				"name": "sql",
+				"type": "boolean",
+				"ask": {
+					"en": "Create a database?"
+				},
+				"default": true
+			},
+			{
+				"name": "is_public",
+				"type": "boolean",
+				"ask": {
+					"en": "Is it a public website ?"
+				},
+				"default": false
+			}
+		]
+	}
+}

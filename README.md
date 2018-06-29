@@ -1,1 +1,1 @@
-# sentrifugo_dfy_stretch
+# Deify Infocomm Solutions Custom Integration for Hrms for Debian Stretch
