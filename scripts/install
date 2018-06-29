@@ -106,27 +106,27 @@ chmod 777 -R $parent_dir/public/application_constants.php
 chmod 777 -R $parent_dir/public/mail_settings_constants.php
 chmod 777 -R $parent_dir/logs/application.log
 
-#cp ../sources/application/configs/application.ini $final_path/application/configs/application.ini
-#cp ../sources/application/modules/default/controllers/EmployeeController.php $final_path/application/modules/default/controllers/EmployeeController.php
-#cp ../sources/application/modules/default/forms/employee.php $final_path/application/modules/default/forms/employee.php
-#cp ../sources/application/modules/default/forms/Organisationhead.php $final_path/application/modules/default/forms/Organisationhead.php
-#cp ../sources/application/modules/default/models/Businessunits.php $final_path/application/modules/default/models/Businessunits.php
-#cp ../sources/application/modules/default/models/Employee.php $final_path/application/modules/default/models/Employee.php
-#cp ../sources/application/modules/default/models/Users.php $final_path/application/modules/default/models/Users.php
-#cp ../sources/application/modules/default/views/scripts/employee/add.phtml $final_path/application/modules/default/views/scripts/employee/add.phtml
-#cp ../sources/application/modules/default/views/scripts/employee/addorghead.phtml $final_path/application/modules/default/views/scripts/employee/addorghead.phtml
-#cp ../sources/application/modules/default/views/scripts/employee/edit.phtml $final_path/application/modules/default/views/scripts/employee/edit.phtml
-#cp ../sources/application/modules/default/views/scripts/employee/view.phtml $final_path/application/modules/default/views/scripts/employee/view.phtml
-#cp ../sources/install/hrms.sql $final_path/install/hrms.sql
-#cp ../sources/install/index.php $final_path/install/index.php
-#cp ../sources/install/step1.php $final_path/install/step1.php
-#cp ../sources/install/step5.php $final_path/install/step5.php
-#cp ../sources/install/step6.php $final_path/install/step6.php
-#cp ../sources/install/css/style.css $final_path/install/css/style.css
+cp ../sources/application/configs/application.ini $final_path/application/configs/application.ini
+cp ../sources/application/modules/default/controllers/EmployeeController.php $final_path/application/modules/default/controllers/EmployeeController.php
+cp ../sources/application/modules/default/forms/employee.php $final_path/application/modules/default/forms/employee.php
+cp ../sources/application/modules/default/forms/Organisationhead.php $final_path/application/modules/default/forms/Organisationhead.php
+cp ../sources/application/modules/default/models/Businessunits.php $final_path/application/modules/default/models/Businessunits.php
+cp ../sources/application/modules/default/models/Employee.php $final_path/application/modules/default/models/Employee.php
+cp ../sources/application/modules/default/models/Users.php $final_path/application/modules/default/models/Users.php
+cp ../sources/application/modules/default/views/scripts/employee/add.phtml $final_path/application/modules/default/views/scripts/employee/add.phtml
+cp ../sources/application/modules/default/views/scripts/employee/addorghead.phtml $final_path/application/modules/default/views/scripts/employee/addorghead.phtml
+cp ../sources/application/modules/default/views/scripts/employee/edit.phtml $final_path/application/modules/default/views/scripts/employee/edit.phtml
+cp ../sources/application/modules/default/views/scripts/employee/view.phtml $final_path/application/modules/default/views/scripts/employee/view.phtml
+cp ../sources/install/hrms.sql $final_path/install/hrms.sql
+cp ../sources/install/index.php $final_path/install/index.php
+cp ../sources/install/step1.php $final_path/install/step1.php
+cp ../sources/install/step5.php $final_path/install/step5.php
+cp ../sources/install/step6.php $final_path/install/step6.php
+cp ../sources/install/css/style.css $final_path/install/css/style.css
 cp ../sources/public/ldap_constants.php $final_path/public/ldap_constants.php
-#cp ../sources/public/media/js/hrms.js $final_path/public/media/js/hrms.js
-#cp ../sources/index.php $final_path/index.php
-#cp ../sources/success.php $final_path/success.php
+cp ../sources/public/media/js/hrms.js $final_path/public/media/js/hrms.js
+cp ../sources/index.php $final_path/index.php
+cp ../sources/success.php $final_path/success.php
 
 chmod 777 -R $parent_dir/public/ldap_constants.php
 
