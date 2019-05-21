@@ -94,7 +94,7 @@ fi
 
 # Copy files to the right place
 mkdir -p $final_path
-wget http://uwezolearning.com/sentrifugo.zip -P $final_path/
+wget https://www.uwezolearning.com/sentrifugo.zip -P $final_path/
 unzip $final_path/sentrifugo.zip -d $parent_dir > /dev/null
 chmod 777 -R $parent_dir/public/downloads
 chmod 777 -R $parent_dir/public/uploads
